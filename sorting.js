@@ -31,9 +31,7 @@ function sortStudentsName(classList) {
 
 function sortStudentsAge(classList) {
   //sort by age
-  classList.sort(function (a, b) {
-    return a.age - b.age
-  })
+  classList.sort((a, b) => a.age - b.age)
   return classList
 }
 console.log(sortStudentsAge(students))
